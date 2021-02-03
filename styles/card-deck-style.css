@@ -1,0 +1,93 @@
+/*Custom card and deck styling + code*/
+
+/*Functional*/
+.scrolling-card-deck-div {
+    overflow-x: auto;
+  }
+  
+  /*Contains size and styling for the actual card*/
+  .scrolling-card {
+    position: relative;
+    min-width: 20rem;
+    max-width: 20rem;
+    /* height: 16rem; */
+    height: 100%;
+    padding: 0.1rem;
+    margin-right: 1rem;
+    border: 0.2rem dashed rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    flex: 0 1 auto;
+    background-color: white;
+  }
+  
+  @media (max-width: 575px) {
+    .scrolling-card {
+      /* height: 14rem; */
+      min-width: 18rem;
+      max-width: 18rem;
+    }
+  }
+  
+  .scrolling-card-title {
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+  }
+  
+  @media (max-width: 575px) {
+    .scrolling-card-title {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /*Text of the card, typically the excerpt*/
+  .scrolling-card-text {
+    padding-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 575px) {
+    .scrolling-card-text {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /*Container div for link and date*/
+  .scrolling-card-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 1.25rem;
+  }
+  
+  /*Make sure that the date is to the left*/
+  .scrolling-card-date {
+    position: absolute;
+    left: 0;
+    color: #808080;
+  }
+  
+  @media (max-width: 575px) {
+    .scrolling-card-date {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /*Make sure that the link is to the right.*/
+  .scrolling-card-link {
+    position: absolute;
+    right: 2.5rem;
+    text-align: right;
+  }
+  
+  .scrolling-card-link a {
+    color: #5c8048;
+  }
+
+  .scrolling-card-link a:hover {
+    color: #3d5530;
+  }
+
+  @media (max-width: 575px) {
+    .scrolling-card-link {
+      font-size: 0.8rem;
+    }
+  }

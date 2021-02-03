@@ -1,0 +1,206 @@
+body {
+  background-color: #fbfbfb;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+
+  text-align: center;
+  font-size: 3rem;
+  
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.article h1
+{
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 2rem;
+
+  padding-top: 1.4rem;
+  padding-bottom: 0.8rem;
+}
+
+h2 {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+
+
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 575px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+h3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+}
+
+ul li
+{
+  font-family: 'Space Mono', monospace;
+}
+
+#section-header
+{
+  padding-bottom: 0.75rem;
+}
+
+
+p {
+  font-family: 'Space Mono', monospace;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/*Primarily for base layout*/
+.webpage-title h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .webpage-title h1 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+}
+
+.nav a {
+  font-family: 'Space Mono', monospace;
+  color: #6f6f6f;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 575px) {
+  .nav a {
+    font-size: 0.94rem;
+  }
+}
+
+.nav a:hover {
+  color: #4c4c4c;
+  font-weight: bold;
+}
+
+.card-img {
+  width: 100%; 
+  border-radius: 0.4rem; 
+  margin-bottom: 0.5rem;
+}
+
+/*For the homepage*/
+.about-section {
+  padding-top: 3rem;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 575px) {
+  .about-section p {
+    font-size: 1rem;
+  }
+}
+
+.article-content p {
+  font-size: 16px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem; /* Set the fixed height of the footer here */
+  line-height: 3.5rem; /* Vertically center the text there */
+  text-align: center;
+}
+
+/*This is for the padding and dotted green line below*/
+.dashed-line-above-and-below {
+  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  width: 100%;
+  border-top-style: dashed;
+  border-top-width: 0.2rem;
+  border-top-color: #82b366;
+
+  /* border-bottom-style: dashed;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(160, 233, 158);
+  padding-bottom: 1rem; */
+}
+
+@media (max-width: 991px) {
+  .dashed-line-above-and-below {
+    width: 100%;
+  }
+}
+
+.small-seperating-dots {
+  padding: 0 2rem;
+  border-bottom-style: dotted;
+  border-bottom-width: 0.6rem;
+  border-color: #e9e9e9;
+  
+  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  width: 1rem;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 575px) {
+  .small-seperating-dots {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+#spacing-bottom-of-page {
+  margin-top: 5rem;
+}
+
+#seeall {
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: right;
+  padding-top: 0.25rem;
+}
+
+#seeall a {
+  color: #c0c0c0;
+}
+
+#seeall a:hover {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+.article-read-button .btn {
+  color: #82b366
+}
+
+.article-read-button .btn:hover {
+  color: #62864d
+}
