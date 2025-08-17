@@ -82,6 +82,14 @@
     color: #5c8048;
   }
 
+  .scrolling-card-link .btn {
+    border-color: #5c8048;
+  }
+
+  .scrolling-card-link .btn:hover {
+    background-color: #5c8048;
+  }
+
   .scrolling-card-link a:hover {
     color: #3d5530;
   }

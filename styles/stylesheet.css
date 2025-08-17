@@ -50,6 +50,10 @@ h4 {
   font-style: italic;
 }
 
+small {
+  font-family: 'Space Mono', monospace;
+}
+
 ul li
 {
   font-family: 'Space Mono', monospace;
@@ -204,4 +208,99 @@ p {
 
 .article-read-button .btn:hover {
   color: #62864d
+}
+
+
+/* BOOTSTRAP CAROUSEL (all pages) */
+/* ============================== */
+/* Makes the buttons and indicators appear below the images, rather than on them! */
+
+/* moves the carousel indicators down */
+.carousel-inner {
+  padding-bottom: 2.5rem;
+  margin: auto;
+}
+
+.carousel-indicators {
+  bottom: -0.75rem;
+  filter: invert(100%);
+}
+
+.carousel-control-next {
+  top: auto;
+  filter: invert(100%);
+}
+
+.carousel-control-prev {
+  top: auto;
+  filter: invert(100%);
+}
+
+/* For the index project cards */
+/* =========================== */
+
+.project-card-img-or-vid-container {
+
+}
+
+.project-card-img-or-vid {
+  width: 100%;
+}
+
+.card {
+  border: 0.2rem dashed rgba(0,0,0,.125);
+}
+
+.card a {
+  color: #62864d;
+}
+
+.btn {
+  font-family: 'Space Mono', monospace;
+  color: #82b366;
+  border-color: #82b366;
+}
+
+.btn:hover {
+  background-color: #62864d;
+  border-color: #62864d;
+}
+
+.btn:active {
+  background-color: #2d3d23!important;
+  border-color: #2d3d23!important;
+}
+
+/* For project page carousel */
+/* ========================= */
+
+.project-carousel-img-or-video-container {
+  height: 32rem;
+}
+
+.project-carousel-img-or-video {
+  margin: auto; 
+  display: block;
+  height: 32rem;
+}
+
+/* The below fixes the carousel being too high for certian devices, by making it variable height.*/
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 767.98px)
+{
+  .project-carousel-img-or-video-container {
+    max-height: 32rem;
+    height: unset;
+
+    width: inherit;
+  }
+
+  .project-carousel-img-or-video {
+    margin: auto; 
+    display: block;
+    max-height: 32rem;
+    height: unset;
+
+    width: inherit;
+  }
 }
